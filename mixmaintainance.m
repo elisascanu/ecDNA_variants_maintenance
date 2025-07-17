@@ -13,7 +13,7 @@ s=2;
 
 
 f1=figure;
-[yellow, red, mix, no] = generate(p, num_sim, pop_size, init_copy_yellow, init_copy_red, s)
+[yellow, red, mix, no] = generate(p, num_sim, pop_size, init_copy_yellow, init_copy_red, s);
 
 
 y=linspace(1,length(yellow),length(yellow));
@@ -216,8 +216,8 @@ while length(Ryellow)<pop_size
   
 end
 
-Zyellow=[Zyellow;redplot];
-Zred=[Zred;yellowplot];
+Zyellow=[Zyellow;yellowplot];
+Zred=[Zred;redplot];
 Both=[Both;mixplot];
 No=[No;noplot];
    

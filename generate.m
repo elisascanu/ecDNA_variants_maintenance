@@ -187,8 +187,8 @@ while length(Ryellow)<pop_size
   
 end
 
-Zyellow=[Zyellow;redplot];
-Zred=[Zred;yellowplot];
+Zyellow=[Zyellow;yellowplot];
+Zred=[Zred;redplot];
 Both=[Both;mixplot];
 No=[No;noplot];
    
