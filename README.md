@@ -3,7 +3,7 @@ Code for the manuscript "The maintenance and de-mixing of extrachromosomal1 DNA 
 
 ## Main function for simulating ecDNA proliferation in a growing population of cells, considering selection and switching between variants
 
-The main function is called "generate" and it is included in most of the MATLAB scripts. The explanation step by step is present in `mixmaintainance.m`.
+The main function is called "generate" and it is included in most of the MATLAB scripts. You will find it in `generate.m`.
 
 ## The script `distribution_variants.m`
 
